@@ -105,3 +105,9 @@
     font-weight: 600;
     src:url("../font/Lato-Bold.woff") format('woff');
 }
+/*JalnanGothic*/
+@font-face{
+    font-family:'JalnanGothic';
+    font-weight: normal;
+    src:url("../font/JalnanGothic.woff") format('woff');
+}
