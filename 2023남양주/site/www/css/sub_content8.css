@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+/*  (주)한신정보기술 2023.12.18 송상희  */
+
+/* 이미지 박스에 보더 x 패딩 x로 완전히 꽉 차게 만들 때 */
+.nyj_img_box.full_img .nyj_img_list{padding: 0; border: none;}
+.nyj_img_box.full_img .nyj_img_list .nyj_img_item .img_box .real_img{width: auto;max-width: 1141px;}
+.full_img + .full_img{margin-top: 50px;}
+@media screen and (max-width: 1000px) {
+    .full_img + .full_img{margin-top: 30px;}
+}
+/* 3089 - 3093까지 쓰는 공통 CSS */
+.nyj_box.icon_box.urban .nyj_box_inner > .icon:before, .nyj_box.icon_box.urban .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3089_icon_01.png);}
+.nyj_link_box .nyj_link_item .nyj_link_inner .link_icon.type01.email:before{width: 20px; height: 20px; top: calc((100% - 20px) / 2);left: calc((100% - 20px) / 2);background-image: url(/site/www/images/contents/cts3090_icon_01.png);}
+.nyj_box.urban .nyj_box_inner .nyj_con_box .nyj_desc p + p{margin-top: 20px;}
+.nyj_img_box.urban .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto; margin: auto;}
+
+/* 남양주소개 >  상징물 > 남양주서체 */
+.cts2529_wrap strong{color: #bd2148; font-style: normal; font-weight: 400;}
+.cts2529_wrap .nyj_box + .download_wrap{margin-top: 60px;} 
+.cts2529_wrap .download_wrap + .desc_wrap,
+.cts2529_wrap .purpose + .guide
+{margin-top: 55px;}
+.cts2529_wrap .download_wrap{display: block; font-size: 0;line-height: 0;box-sizing: border-box;}
+.cts2529_wrap .nyj_img_box{display: inline-block;width:calc((100% - 36px) / 2);margin-top: 0; vertical-align: top;box-sizing: border-box;}
+.cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 0;margin-left: 36px;}
+.cts2529_wrap .nyj_img_box .nyj_img_list{padding-top:62px; padding-bottom: 62px; }
+.cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 16px;line-height: 22px;}
+.cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 60px;}
+.cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box + .con_box{margin-top: 40px;}
+.cts2529_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{width:auto;height: auto;margin:auto; right: 0;}
+.cts2529_wrap .composition + .purpose{margin-top: 26px;}
+@media screen and (max-width: 1000px){
+    .cts2529_wrap .nyj_box + .download_wrap{margin-top: 45px;} 
+    .cts2529_wrap .nyj_img_box{display: inline-block;width:calc((100% - 20px) / 2);}
+    .cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 0;margin-left: 20px;}
+    .cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 300px;}
+    .cts2529_wrap .download_wrap + .desc_wrap,
+    .cts2529_wrap .purpose + .guide
+    {margin-top: 40px;}
+    .cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 15px;line-height: 18px;}
+    .cts2529_wrap .nyj_btn + .nyj_btn{margin-left: 0; margin-top: 5px;}
+}
+@media screen and (max-width:640px){
+    .cts2529_wrap .nyj_box + .download_wrap{margin-top: 35px;} 
+    .cts2529_wrap .download_wrap + .desc_wrap,
+    .cts2529_wrap .purpose + .guide
+    {margin-top: 30px;}
+    .cts2529_wrap .nyj_img_box{display:block;width: 100%;box-sizing: border-box;}
+    .cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 20px;margin-left: 0;}
+    .cts2529_wrap .nyj_img_box .nyj_img_list{padding-top: 30px; padding-bottom: 30px;}
+    .cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 14px;}
+    .cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 51px;}
+    .cts2529_wrap .composition + .purpose{margin-top: 20px;}
+}
+
+/* 남양주소개 > 시청안내 > 청사안내 > 남양주시 제2청사 > 본관 */
+@media screen and (min-width:1501px){
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box{padding-top: 150px; padding-bottom: 148px; padding-right: 67px; padding-left: 60px;}
+    .cts2544_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box{padding-bottom: 120px;} 
+    .cts2544_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box{padding-right: 107px; padding-bottom: 128px;}
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{width: 20%;}
+}
+@media screen and (max-width:1500px) and (min-width:1001px){
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box{padding-top: 150px;}
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{width: 30%;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_box{width: 100%;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .real_img{width:auto;height: auto;}
+}
+/* 남양주소개 > 시청안내 > 청사안내 > 남양주시 제1청사 > 별관 */
+@media screen and (min-width:1501px){
+    .cts4320_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box{padding-top: 160px; padding-bottom: 254px;}
+    .cts4320_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .cts4320_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box{padding-top: 55px; padding-bottom: 124px;}
+    .cts4320_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 106px;}
+}
+@media screen and (max-width:1500px) and (min-width:1001px){}
+/*  남양주소개 > 시청안내 > 청사안내 > 사업소 / 교통국 · 복지국 > 도시관리사업소 / 교통국 */
+.cts2548 .nyj_link_box + .warning{margin-top: 20px;}
+
+/*  남양주소개 > 행정복지센터/읍면동 주민자치 > 주민자치회란 */
+.cts2561_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2561_icon_01.png);}
+
+/*  남양주소개 > 행정복지센터/읍면동 주민자치 > 주민자치위원회란 */
+.cts2562_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2562_icon01.png);}
+
+/* 분야별정보 > 복지 > 복지관련사이트 */
+.cts2909_wrap .nyj_site_list + .nyj_site_list{margin-top: 20px;}
+
+/* 분야별정보 >  교육 > 학교지원사업 */
+.cts2912_wrap .warning + .nyj_box{margin-top: 20px;} 
+.cts2912_wrap .nyj_site_list + .nyj_site_list{margin-top: 20px;}
+.cts2912_wrap .nyj_box .nyj_box_inner .nyj_con_box .nyj_btn{width: 100%; margin-top: 0;}
+.cts2912_wrap .nyj_btn.black_type:hover:after{background-color: #1b224e;}
+.cts2912_wrap .nyj_btn.black_type:hover .blt.type5{color: #fff;}
+.cts2912_wrap .nyj_btn.black_type:hover .blt.type5:before{background-color: #fff;}
+.cts2912_wrap .main_txt{padding-top: 55px; padding-bottom: 60px;}
+@media screen and (max-width: 1000px){
+    .cts2912_wrap .main_txt{padding-top: 40px; padding-bottom: 50px;}
+}
+@media screen and (max-width: 640px){
+    .cts2912_wrap .main_txt{padding-top: 30px; padding-bottom: 40px;}
+    .cts2912_wrap .nyj_site_list + .nyj_site_list{margin-top: 15px;}
+}
+/* 분야별정보 > 청년 > 청년창업센터 > 남양주시 청년창업센터 */
+.cts2917_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2917_icon01.png);}
+.cts2917_wrap .table{margin-top: 20px;}
+.cts2917_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 640px;}
+.cts2917_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 840px;}
+.cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 55px;}
+@media screen and (max-width: 1000px){
+    .cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 40px;}   
+}
+@media screen and (max-width: 640px){
+    .cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 30px;}
+}
+
+/*  분야별정보 > 청년 > 청년일자리 > 일자리카페 */
+.cts2920_wrap .nyj_link_box + .num,
+.cts2920_wrap .num + .warning
+{margin-top: 20px;}
+.cts2920_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 28px);left: calc(50% - 23px); width: 46px;height: 55px;background-image: url(/site/www/images/contents/cts2310_icon_01.png);}
+
+/*  분야별정보 > 청년 > 청년일자리 > 청년 취업성공 프로젝트 */
+.cts2921_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 28px);left: calc(50% - 23px); width: 46px;height: 55px;background-image: url(/site/www/images/contents/cts2310_icon_01.png);}
+
+/*  분야별정보 > 청년 > 청년복지 > 청년기본소득 */
+.cts2925_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 23px);left: calc(50% - 29px); width: 58px;height: 47px;background-image: url(/site/www/images/contents/cts2925_icon_01.png);}
+.cts2925_wrap .num + .warning,
+.cts2925_wrap .warning + .blt{margin-top: 10px;}
+.cts2925_wrap .nyj_img_box + .bu{margin-top: 20px;} 
+
+
+/* 분야별정보 > 청년 > 청년창업센터 > 창업공간(1층) */
+.nyj_box.text_box.floor_box .nyj_box_inner{padding:0;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box {position: relative; padding:100px 110px 135px 60px;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .floor_num {position: absolute;top: 57px;left: 0;max-width: 111px;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .floor_icon {position: absolute;bottom: 38px;left: 60px;max-width: 408px;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc {display: flex; position: relative;justify-content: space-between;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info {position: relative; top: 60px;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_zoom{display: none;overflow: hidden;position: absolute;left: calc(50% - 15px);bottom: 5px;width: 30px;height: 30px;border-radius: 50%;box-sizing: border-box;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_zoom a{position: relative;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.6);font-size: 0;color: transparent;line-height: 40px;}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_zoom a:before{display: block;top: 7px;left: 7px;position: absolute;width: 18px;height: 17px;background-image: url(../../../site/public/images/template/magnifier.svg);background-repeat: no-repeat;content: '';box-sizing: border-box;transform: scale(0.8);
+}
+.nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .real_img{height: 100%;}
+.num.room_info > li{margin-top: 10px;padding-left: 28px;font-size: 15px;color: #1b224e;line-height: 20px;font-weight: 500;}
+.num.room_info > li > .number, .kor > li > .text{display: block;position: absolute;top: 0;left: 0; width: 20px;height: 20px;background-color: #1b224e; border-radius:50%;font-size: 13px; color: #fff; line-height: 20px; font-weight: 400;}
+p + .nyj_box.floor_box{margin-top: 55px;}
+@media screen and (max-width: 1500px){
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box {position: relative; padding:100px 40px 135px 60px}
+}
+@media screen and (max-width: 1000px){
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box {position: relative; padding:120px 40px 135px 60px}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .floor_num {position: absolute;top: 50px;left: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc {display: flex; flex-direction: column; align-items: center; gap: 50px; }
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info {position: relative; top: 0;}
+    .num.room_info > li{padding-left: 28px;font-size: 15px;color: #1b224e;line-height: 20px;font-weight: 500; margin-top: 5px;}
+    p + .nyj_box.floor_box{margin-top: 40px;}
+}
+@media screen and (min-width:1001px){
+    .cts2540_wrap .nyj_box.floor_box.b1 .nyj_box_inner .nyj_con_box{padding-top: 128px; padding-bottom: 109px;}
+    .cts2540_wrap .nyj_box.floor_box.b1 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 15px;}
+    .cts2540_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box{padding-top: 148px; padding-bottom: 188px;}
+    .cts2540_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 15px;}
+    .cts2540_wrap .nyj_box.floor_box.f2 .nyj_box_inner .nyj_con_box{padding-top: 214px; padding-bottom: 138px;}
+    .cts2540_wrap .nyj_box.floor_box.f2 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: -52px;}
+    .cts2540_wrap .nyj_box.floor_box.f3 .nyj_box_inner .nyj_con_box{padding-top: 153px; padding-bottom: 186px;}
+    .cts2540_wrap .nyj_box.floor_box.f3 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0px;}
+    .cts2540_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box{padding-top: 168px; padding-bottom: 129px;}
+    .cts2540_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: -17px;}
+}
+@media screen and (max-width:800px){
+    .cts2540_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{display: flex; flex-wrap: wrap; width: 100%;}
+    .cts2540_wrap .num.room_info > li{width: 50%;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_zoom {display: block;}
+}
+@media screen and (max-width: 640px){
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box {position: relative; padding:100px 20px 135px}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .floor_num {width: 25%; position: absolute;top: 40px;left: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc {gap: 50px;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .floor_icon {width: 90%;position: absolute;bottom: 38px;left: 20px;}
+    p + .nyj_box.floor_box{margin-top: 30px;}
+    .num.room_info > li{width: 100%; margin-top: 5px; padding-left: 28px;font-size: 14px;color: #1b224e;line-height: 20px;font-weight: 500;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .real_img{height: auto;}
+}
+
+/* 분야별정보 > 청년 > 청년창업센터 > 배움공간(4층) */ 
+.cts4357_wrap .li_flex{display: flex; gap: 6px;}
+.cts4357_wrap .li_flex span{width: 80%; word-break: keep-all;}
+
+/* 분야별정보 > 취업/경제 > 기업지원센터 > 투자유치> 왕숙 신도시 */
+.cts3317_wrap .img_list{display:flex; justify-content: space-between; width: 100%;}
+.cts3317_wrap .nyj_img_box + .img_list{margin-top: 55px;}
+.cts3317_wrap .full_img + .full_img{margin-top: 0; margin-left: 30px;}
+.cts3317_wrap .list2 .full_img + .full_img{margin-left: 22px;}
+.cts3317_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_icon.type01:before{top: calc((100% - 17px) / 2);left: calc((100% - 18px) / 2);width: 14px;height: 14px;}
+.cts3317_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_icon.area:before{background-image: url(/site/www/images/contents/cts3317_icon_01.png);}
+.cts3317_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_icon.house:before{background-image: url(/site/www/images/contents/cts3317_icon_02.png);}
+@media screen and (max-width: 1000px){
+    .cts3317_wrap .nyj_img_box + .img_list{margin-top: 40px;}
+}
+@media screen and (max-width: 640px){
+    .cts3317_wrap .img_list{display:flex;flex-wrap: wrap; justify-content: space-between; width: 100%;}
+    .cts3317_wrap .nyj_img_box + .img_list{margin-top: 30px;}
+    .cts3317_wrap .full_img + .full_img{margin-top: 20px; margin-left: 0;}
+    .cts3317_wrap .list2 .full_img + .full_img{margin-left: 0;}
+}
+
+/* 분야별정보 > 취업/경제 > 고용경제 > 에너지 */
+.cts2957_wrap .nyj_box.type5 .nyj_box_inner{display: block;overflow: hidden;position: relative;width: 100%;background-color: #f4f6f9;border: none;border-radius: 20px;box-sizing: border-box;}
+.cts2957_wrap .nyj_box.icon_box .nyj_box_inner .nyj_con_box .nyj_title{color: #317ad7;}
+.cts2957_wrap .nyj_box.icon_box.type4 .nyj_box_inner > .icon:before{background-position: 0 0;}
+.cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon{border-radius: 40px 20px 20px;}
+.cts2957_wrap .nyj_box.icon_box.window .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_01.png);}
+.cts2957_wrap .nyj_box.icon_box.curtain .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_02.png);}
+.cts2957_wrap .nyj_box.icon_box.aircon .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_03.png);}
+.cts2957_wrap .nyj_box.icon_box.food .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_04.png);}
+.cts2957_wrap .nyj_box.icon_box.bath .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_05.png);}
+.cts2957_wrap .nyj_box.icon_box.kid .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_06.png);}
+.cts2957_wrap .nyj_box.icon_box.light .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_07.png);}
+.cts2957_wrap .nyj_box.icon_box.light2 .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_08.png);}
+.cts2957_wrap .nyj_box.icon_box.light_off .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_09.png);}
+.cts2957_wrap .nyj_box.icon_box.room .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_10.png);}
+.cts2957_wrap .nyj_box.icon_box.plug .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_11.png);}
+.cts2957_wrap .nyj_box.icon_box.buy .nyj_box_inner > .icon:before, .cts2957_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts2957_icon_12.png);}
+
+/* 분야별정보 > 취업/경제 > 남양주사랑상품권 > 소개 */
+.cts2961 .num > li > .number, .kor > li > .text{display: block;position: absolute;top: 0;left: 0;width: 23px;height: 23px;background-color: #eaeaea;border-radius: 6px;font-size: 14px;color: #222;line-height: 23px;letter-spacing: -0.03em;font-weight: 400;content: '';box-sizing: border-box;text-align: center;}
+.cts2961 iframe{width: 765px;height: 430px; margin: 0 auto;}
+.cts2961 .nyj_box.text_box.type2 .nyj_box_inner .nyj_con_box .nyj_title.black, .nyj_box.text_box.type3 .nyj_box_inner .nyj_con_box .nyj_title.black{color: #252831;}
+
+/*  분야별정보 > 식품/위생 > 음식문화개선사업 > 식중독예방 */
+.cts2987_wrap .nyj_img_box.full_type .nyj_img_list .nyj_img_item .img_box img,.cts2987_wrap .nyj_img_box.full_type2 .nyj_img_list .nyj_img_item .img_box img {max-width: 956px; margin: auto;}
+
+/*  분야별정보 > 취업/경제 > 착한가격업소 */
+.cts2979_wrap .nyj_map_box{overflow: hidden;}
+.cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 680px;}
+.cts2979_wrap .layer_popup .popupbox{width: 780px; top: calc(50% + 170px);}
+.cts2979_wrap .temp_layerbox .layer .innerbox {max-width: 780px;}
+@media screen and (max-width: 1000px){
+    .cts2979_wrap .layer_popup .popupbox{width: 640px; top: calc(50% + 170px);}
+    .cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 540px;}
+}
+@media screen and (max-width: 640px){
+    .cts2979_wrap .layer_popup .popupbox{width: 350px; top: calc(50% + 10px);}
+    .cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 250px;}
+}
+
+/* 분야별정보 > 도시/주택 > 도시재생사업 > 도시재생사업 안내 */
+/* .cts3089_wrap .nyj_box.icon_box.buy .nyj_box_inner > .icon:before, .cts3089_wrap .nyj_box.icon_box .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3089_icon_01.png);} */
+.cts3089_wrap .nyj_img_box.full_type .nyj_img_list .nyj_img_item, .cts3089_wrap  .nyj_img_box.full_type2 .nyj_img_list .nyj_img_item{display: flex; justify-content: space-between; align-items: center;}
+.cts3089_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box{text-align: center;}
+.cts3089_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto;}
+.cts3089_wrap  .nyj_img_box.full_type.img_table1 .nyj_img_list, .cts3089_wrap .nyj_img_box.full_type2 .nyj_img_list{padding-top: 0; padding-bottom: 0;}
+.cts3089_wrap  .nyj_img_box.full_type.img_table2 .nyj_img_list, .cts3089_wrap .nyj_img_box.full_type2 .nyj_img_list{padding-left: 0; padding-right: 0;}
+.cts3089_wrap .nyj_line.verti.no1{height: 532px;}
+.cts3089_wrap .nyj_line.verti.no2{width: 2px;height: 412px;}
+.cts3089_wrap .warning + .nyj_img_box{margin-top: 30px;}
+.cts3089_wrap .nyj_site_list + .nyj_site_list{margin-top: 20px;}
+@media screen and (max-width: 640px){
+    .cts3089_wrap .nyj_img_box.full_type .nyj_img_list .nyj_img_item, .cts3089_wrap  .nyj_img_box.full_type2 .nyj_img_list .nyj_img_item{display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;}
+    .cts3089_wrap  .nyj_img_box.full_type.img_table1 .nyj_img_list, .cts3089_wrap .nyj_img_box.full_type2 .nyj_img_list{padding-top: 30px; padding-bottom: 30px;}
+    .cts3089_wrap  .nyj_img_box.full_type.img_table2 .nyj_img_list, .cts3089_wrap .nyj_img_box.full_type2 .nyj_img_list{padding-left: 15px; padding-right: 15px;}
+    .cts3089_wrap .nyj_line.verti.no1{display: block;width: 100%;height: 2px;margin: 30px 0;background-position: left top;font-size: 0;line-height: 0;box-sizing: border-box;}
+    .cts3089_wrap .nyj_line.verti.no2{display: block;width: 100%;height: 2px;margin: 30px 0;background-position: left top;font-size: 0;line-height: 0;box-sizing: border-box;}
+}
+
+/* 분야별정보 > 도시/주택 > 도시재생사업 > 남양주시 도시재생지원센터 */
+.cts3090_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box{text-align: center;}
+.cts3090_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 1040px; width: auto;}
+
+/* 분야별정보 > 도시/주택 > 도시재생사업 > 금곡동 도시재생현장지원센터 */
+.cts3091_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box{text-align: center;}
+.cts3091_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto; margin: auto;}
+/* 분야별정보 > 도시/주택 > 도시재생사업 > 화도읍 도시재생현장지원센터 */
+.cts3092_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto;}
+/* 분야별정보 > 도시/주택 > 도시재생사업 > 퇴계원읍 도시재생현장지원센터 */
+.cts3093_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto;}
+
+/* 분야별정보 > 도로/교통 > 대중교통정보 > 시내버스노선 */
+.cts3105_wrap .nyj_link_box + .title_list{margin-top: 20px;}
+
+/* 분야별정보 > 도로/교통 > 대중교통정보 > 콜택시 */
+.cts3107_wrap .nyj_box.icon_box.type4 .nyj_box_inner .nyj_con_box .nyj_title{color: #317ad7;}
+.cts3107_wrap .nyj_box .nyj_box_inner .nyj_con_box .nyj_desc + .nyj_desc{margin-top: 25px;} 
+.cts3107_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 504px;}
+.cts3107_wrap .nyj_img_box.list_type.taxi .nyj_img_list .nyj_img_item .img_box{height: 118px;}
+.cts3107_wrap  .nyj_img_box.taxi .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 504px; width: auto; margin: auto;}
+.cts3107_wrap  .nyj_box + .nyj_img_box{margin-top: 20px;}
+.cts3107_wrap .nyj_box.icon_box.type4 .nyj_box_inner > .icon:before{background-position: 0 0;}
+.cts3107_wrap .nyj_box.icon_box.type4.safe .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3107_icon_01.png);}
+.cts3107_wrap .nyj_box.icon_box.type4.fast .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3107_icon_02.png);}
+.cts3107_wrap .nyj_box.icon_box.type4.easy .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3107_icon_03.png);}
+@media screen and (max-width: 640px){
+    .cts3107_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 100%; word-break: keep-all;}
+    .cts3107_wrap .nyj_img_box.list_type.taxi .nyj_img_list .nyj_img_item .img_box{width: auto;height: auto;}
+    .cts3107_wrap  .nyj_img_box.taxi .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 504px; width: 100%; margin: auto;}
+}
+/* 분야별정보 > 도로/교통 > 대중교통정보 > 철도현황 */
+.cts3108_wrap  .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto; margin: auto;}
+
+/* 분야별정보 > 도로/교통 > 대중교통정보 > 교통비 지원 사업 관련 질의응답(Q&A) */
+.cts3111_wrap .em_b{display: inline;}
+
+/*  남양주소개 > 행정복지센터/읍면동 > 행정복지센터 안내 */
+.cts2559_wrap .nyj_box.welfare_box .depth1 .depth1_item{z-index:1;display: block;position: relative;width:193px;height:193px;margin: 0 auto;padding-top: 97px;}
+.cts2559_wrap .nyj_box.welfare_box .depth1 .depth1_item:after{display: block;position: absolute;top:57px;left:calc(50% - 17px);width:34px;height:33px;background:url(../images/contents/cts2559_icon01.png);content: '';}
+.cts2559_wrap .nyj_box.welfare_box .depth1 .depth1_item:before{display: block;position: absolute;top:0;left:0;width: 100%;height: 100%;background-color: #317ad7;border-radius: 60px;transform: rotate(45deg);content:'';}
+.cts2559_wrap .nyj_box.welfare_box .depth1 .depth1_item .depth1_text{display: block;position: relative;font-size:22px;line-height: 30px;letter-spacing: -0.04em;font-weight: 500;color: #fff;text-align: center;word-break: keep-all;}
+.cts2559_wrap .nyj_box.welfare_box .depth2:before{display: block; position: absolute;width: 100%;height: 1px;background-color: #a7b7ce;content: '';}
+.cts2559_wrap .nyj_box.welfare_box .left{display: block;position: absolute;left: 0;}
+.cts2559_wrap .nyj_box.welfare_box .right{display: block;position: absolute;right: 0;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth1{display: block;position: relative;width: 100%;min-height:340px;padding:90px;background-color:#eff5fe;border-radius:170px;box-sizing: border-box;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2{display: block;position: relative;top:-96.5px;box-sizing: border-box;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item{top:-60px;width:240px;min-height: 120px;padding:31px 10px;background-color: #fff;border-radius: 60px;box-shadow: 5px 10px 8px rgba(176, 200, 235, 0.2);}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item:before{z-index:3;top:50%;display: block;position: absolute;width:46px;height:46px;background-color:#3b5a85;background-image:url(../images/contents/cts2559_arrow01.png);background-repeat:no-repeat;background-position: center; border-radius:100%;content: '';}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item.left:before{right: -24px;transform: rotate(180deg) translateY(50%);box-shadow: -3px -4px 8px rgba(0, 0, 0, 0.1);}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item.right:before{left: -24px;transform:translateY(-50%);box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item .depth2_text{font-size: 20px;line-height: 28px;letter-spacing: -0.04em;color: #3b5a85;text-align: center;font-weight: 500;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item .depth2_text .desc{font-size: 16px;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service{margin-top: 67px;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .title span{display: block;position: relative;font-size: 22px;line-height: 28px;letter-spacing: -0.02em;font-weight: 500;text-align: center;color: #1b224e;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .title em{display: block;position: relative;margin-top:10px;font-size: 36px;line-height: 43px;letter-spacing: -0.02em;font-weight: 400;text-align: center;color: #1b224e;font-family: 'SBAggro', 'Score','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;word-break: keep-all;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box{margin-top: 60px;position: relative;}
+/* .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_list{display: block;font-size: 0;line-height: 0;} */
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_list{display: flex; justify-content: space-between;flex-flow: row wrap;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item{display:block;position:relative;flex-basis: calc((100% - 60px) / 3);min-height: 180px;padding:50px 36px 40px;background-color: #fff8f2;border-radius: 15px;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item:nth-child(n+4){margin-top: 30px;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item.long{flex-basis: calc(((100% - 60px) / 3) * 2 + 30px)}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item .number{display: block;position: absolute;top:-5px;left:16px;width: 33px;height: 33px;background-color: #ff6858;border-radius: 10px;font-size: 18px;letter-spacing: -0.03em;line-height: 33px;font-weight: 400;color:#fff;text-align:center;font-family: 'Montserrat','Score','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item .list_title{font-size: 20px;line-height: 28px;letter-spacing: -0.04em;color: #242a3a;font-weight: 500;word-break: keep-all;}
+.cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item .list_desc{margin-top:10px;font-size: 15px;line-height: 26px;letter-spacing: -0.03em;color: #45484e;font-weight: 300;word-break:keep-all;}
+
+.cts2559_wrap .nyj_box.welfare_box.type3 .nyj_box_inner{padding: 98px 100px 67px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1{display: block;position: relative;min-height: 430px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1:before{z-index:2;display: block;position: absolute;bottom:109px;left:50%;width:13px;height:13px;background-color:#3b5a85;border-radius:100%;transform: translateX(-50%);content: '';}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1:after{display: block;position: absolute;top:0;left:calc(50% - 1px);width:1px;height:calc(100% - 115px);background-color:#aab8cb;content: '';}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1 .depth1_item{padding-top: 81px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1 .depth1_item:before{background-color: #1d2f9b;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth1 .depth1_item:after{top:38px;background:url(../images/contents/cts2559_icon02.png);}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth2{display: block;position: relative;margin-top: 120px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item{top:-87px;width: 404px;min-height: 174px;background-color: #fff;border-radius: 87px;box-shadow: 6px 10px 8px rgba(195, 202, 213, 0.2);}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item.left{padding: 58px 58px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item.right{padding: 45px 58px;}
+.cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item .depth2_text{display:block;font-size: 20px;line-height: 28px;letter-spacing: -0.04em;color: #3b5a85;text-align: center;font-weight: 500;word-break: keep-all;}
+
+@media screen and (min-width:1501px){
+    .cts2559_wrap .nyj_box.welfare_box.type2 .nyj_box_inner{padding: 50px 70px;}
+}
+@media screen and (max-width:1500px){
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth1{padding: 90px 30px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item{flex-basis: calc((100% - 40px) / 3);}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item.long{flex-basis: calc(((100% - 40px) / 3) * 2 + 20px);}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item:nth-child(n+4){margin-top: 20px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .nyj_box_inner{padding: 98px 40px 70px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item{width: 368px;}
+}
+@media screen and (max-width:1200px){
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth1 .depth1_item:after{top:32px}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth1 .depth1_item{padding-top: 77px;}
+    .cts2559_wrap .nyj_box.welfare_box .depth1 .depth1_item .depth1_text{font-size: 20px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item .depth2_text{font-size: 18px;line-height: 26px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item .depth2_text{font-size: 18px;line-height: 26px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .title em{font-size: 30px;}
+}
+@media screen and (max-width:1000px){
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item{width: 220px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .nyj_box_inner{padding: 90px 30px 70px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item{width: calc(50% - 50px);max-width: 368px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item.right{padding: 45px 26px;}
+}
+@media screen and (max-width:800px){
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth1{padding: 60px 30px 90px;border-radius:30px ;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2{top: 0;margin-top: 50px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item{top: 0;width:100%;padding: 48px 10px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item + .depth2_item{margin-top: 30px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item .depth2_text br{display: none !important;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item:before{top: -20px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item.left:before{left: 50%;right:auto; transform: translateX(-50%) rotate(90deg);}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2 .depth2_item.right:before{left: 50%; transform: translateX(-50%) rotate(90deg);}
+    .cts2559_wrap .nyj_box.welfare_box .left, .cts2559_wrap .nyj_box.welfare_box .right{position: relative;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .depth2:before{top:-50px; left:calc(50% - 1px);width: 1px;height: 100%;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .title span{font-size: 18px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .title em{font-size: 24px;line-height: 28px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item{flex-basis: 100%; min-height: auto;padding: 50px 36px 30px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item.long{flex-basis: 100%;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item:nth-child(n+4){margin-top: 0;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item + .service_item{margin-top: 20px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item .list_title{font-size: 18px;}
+    .cts2559_wrap .nyj_box.welfare_box.type2 .service .service_con_box .service_item .list_desc br{display: none !important;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .nyj_box_inner{padding: 90px 30px 0;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2:before{display: none;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item{z-index:3;width: 100%; max-width: none;min-height: auto;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item.left{padding: 28px 58px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item.left{padding: 28px 58px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item + .depth2_item{margin-top: 20px;}
+    .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item .depth2_text{font-size: 16px;line-height: 24px;}
+}

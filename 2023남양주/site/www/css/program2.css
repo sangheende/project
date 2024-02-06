@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* (주)한신정보기술 안병민 2023.11 */
+
+.start_line{margin:30px 0;padding:5px 0;text-align:center;background-color: #bd2148; font-size:20px;color:#fff;}
+
+/*1. 주민참여포인트 인증번호 입력*/
+.resident_point_wrap{display:block;position:relative;width:100%;box-sizing:border-box;font-size:0;line-height:0;}
+.resident_point_wrap .radio_wrap{padding:17px 0 16px;border-bottom:1px solid #e9e9e9;text-align:right;}
+.resident_point_wrap .point_login_box{margin-top:60px;padding:60px 0 50px;border:2px solid #b5b7bc;border-radius:20px;}
+.resident_point_wrap .point_login_box .left_wrap{float:left;width:50%;padding-left:134px;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg{position:relative;width:357px;height:269px;background:url(/common/images/program/newskin/authentication_bg.png)center center / cover no-repeat;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .title{position:relative;width:100%;margin-top:86px;font-size:16px;color:#1b224e;letter-spacing:-0.02em;line-height:25px;font-family:'SBAggro';font-weight:400;text-align:center;word-break:keep-all;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .title:before{display:block;position:absolute;top:-38px;left:calc(50% - 12px);width:25px;height:25px;background:url(/common/images/program/newskin/authentication_icon.png)center center / cover no-repeat;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .title .mobile_title{display:none;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .sub_title{width:100%;margin-top:17px;font-size:14px;color:#bd2148;letter-spacing:-0.04em;line-height:21px;font-family:'Score';font-weight:300;text-align:center;word-break:keep-all;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco1{position:absolute;bottom:-12px;left:-61px;width:125px;height:146px;background:url(/common/images/program/newskin/authentication_img01.png)center center / cover no-repeat;}
+.resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco2{position:absolute;bottom:-12px;right:-55px;width:112px;height:147px;background:url(/common/images/program/newskin/authentication_img02.png)center center / cover no-repeat;}
+.resident_point_wrap .point_login_box .right_wrap{float:right;width:50%;padding-top:20px;padding-right:72px;text-align:right;}
+.resident_point_wrap .point_login_box .right_wrap .right_top_box{padding-right:64px;}
+.resident_point_wrap .point_login_box .right_wrap .right_top_box .bu{display:inline-block;width:auto;}
+.resident_point_wrap .point_login_box .right_wrap .bu li{font-size:0;line-height:0;}
+.resident_point_wrap .point_login_box .right_wrap .bu li:before,
+.resident_point_wrap .point_login_box .right_wrap .blt:before{top:17px;}
+.resident_point_wrap .point_login_box .right_wrap .login_item_title{width:98px;font-size:16px;color:#252831;letter-spacing:-0.04em;line-height:46px;font-family:'Score';font-weight:400;}
+.resident_point_wrap .point_login_box .right_wrap .nyj_form .nyj_input{width:280px;min-height:46px;line-height:44px;}
+.resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box{width:100%;margin-top:20px;}
+.resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box .nyj_btn .btn{min-width:280px;}
+.resident_point_wrap .point_login_box .right_wrap .right_bot_box .blt{font-size:0;line-height:0;}
+.resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_box{padding-right:64px;}
+.resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_text{width:280px;margin-top:10px;font-size:14px;color:#767b89;letter-spacing:-0.04em;line-height:24px;font-family:'Score';font-weight:400;text-align:left;}
+.resident_point_wrap .point_login_box .right_wrap .right_bot_box .nyj_btn_box{margin-top:15px;}
+.resident_point_wrap .point_login_box .right_wrap .right_bot_box .nyj_btn_box .nyj_btn .btn{min-width:280px;}
+
+
+/*2. 내 포인트현황 조회 입력*/
+.resident_point_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_text_box .nyj_btn{float:right;box-shadow:0px 3px 1px 0px rgba(49, 122, 215, 0.2);vertical-align:middle;}
+.resident_point_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_text_box .nyj_btn.small .btn{vertical-align:middle;}
+.resident_point_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_text_box .title_box,
+.resident_point_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_text_box .con_box{margin-top:9px;}
+.resident_point_wrap .table{margin-top:30px;}
+.resident_point_wrap .table tbody .point_deduct{background-color:#fbf0f2;}
+
+.resident_point_wrap .table tbody .point_deduct td:nth-child(2){color:#bd2148;}
+@media screen and (max-width:1500px) {
+    .resident_point_wrap .point_login_box .left_wrap{padding-left:55px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .title{font-size:15px;line-height:22px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .sub_title{font-size:13px;line-height:20px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco1{left:-20px;width:105px;height:123px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco2{right:-15px;width:92px;height:121px;}
+    .resident_point_wrap .point_login_box .right_wrap .login_item_title{width:70px;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box,
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_box{padding-right:0;}
+}
+@media screen and (max-width:1000px) {
+    .resident_point_wrap .point_login_box{padding:40px 0;}
+    .resident_point_wrap .point_login_box .left_wrap{width:100%;padding-left:0;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .title .pc_title{display:none;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .title .mobile_title{display:inline-block;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg{margin:0 auto;}
+    .resident_point_wrap .point_login_box .right_wrap{width:100%;padding-top:60px;padding-right:0;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .bu{display:block;width:368px;margin:0 auto;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .bu > li + li{margin-top:6px;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box{width:368px;margin:20px auto 0;}
+    .resident_point_wrap .point_login_box .right_wrap .login_item_title{font-size:15px;line-height:42px;}
+    .resident_point_wrap .point_login_box .right_wrap .nyj_form .nyj_input{min-height:40px;line-height:38px;}
+    .resident_point_wrap .point_login_box .nyj_line{width:calc(100% - 100px); margin:30px auto;}
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_box{width:368px;margin: 0 auto;}
+}
+@media screen and (max-width:640px) {
+    .resident_point_wrap .point_login_box .left_wrap{padding:0 20px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg{width:100%;max-width:317px;height:auto;background-size:contain;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .title{margin-top:27.1%;font-size:14px;line-height:18px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .sub_title{margin-top:10px;padding-bottom:20.2%;font-size:12px;line-height:18px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco1{left:-15px;width:85px;height:99px;}
+    .resident_point_wrap .point_login_box .left_wrap .point_login_bg .point_login_deco2{width:72px;height:95px;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .bu{width:100%;max-width:368px;padding:0 20px;}
+    .resident_point_wrap .point_login_box .right_wrap .nyj_form{width:calc(100% - 70px);}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box{width:100%;max-width:368px;padding:0 20px;}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box .nyj_btn{width:calc(100% - 84px);}
+    .resident_point_wrap .point_login_box .right_wrap .right_top_box .nyj_btn_box .nyj_btn .btn{min-width:0;}
+    .resident_point_wrap .point_login_box .right_wrap .nyj_form .nyj_input{width:100%;}
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_box{width:100%;padding:0 20px;}
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .blt{width:100%;}
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_text{width:100%;}
+    .resident_point_wrap .point_login_box .right_wrap .right_bot_box .authentication_box .nyj_btn{width:100%;}
+
+
+    .table.responsive tbody tr:nth-child(odd).point_deduct{background-color:#fbf0f2;}
+    .resident_point_wrap .nyj_link_box .nyj_link_item .nyj_link_inner .link_text_box .nyj_btn{float:unset;margin-top:15px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
