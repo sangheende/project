@@ -150,3 +150,17 @@ p + .nyj_box.floor_box{margin-top: 55px;}
     .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item + .depth2_item{margin-top: 20px;}
     .cts2559_wrap .nyj_box.welfare_box.type3 .depth2 .depth2_item .depth2_text{font-size: 16px;line-height: 24px;}
 }
+
+/*  분야별정보 > 취업/경제 > 착한가격업소 */
+.cts2979_wrap .nyj_map_box{overflow: hidden;}
+.cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 680px;}
+.cts2979_wrap .layer_popup .popupbox{width: 780px; top: calc(50% + 170px);}
+.cts2979_wrap .temp_layerbox .layer .innerbox {max-width: 780px;}
+@media screen and (max-width: 1000px){
+    .cts2979_wrap .layer_popup .popupbox{width: 640px; top: calc(50% + 170px);}
+    .cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 540px;}
+}
+@media screen and (max-width: 640px){
+    .cts2979_wrap .layer_popup .popupbox{width: 350px; top: calc(50% + 10px);}
+    .cts2979_wrap .nyj_map_box .map_inner .root_daum_roughmap{width: 250px;}
+}
