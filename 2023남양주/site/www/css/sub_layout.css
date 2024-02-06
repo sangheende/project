@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* (주)한신정보기술 이지은 - 2023.07 */
+
+
+
+/* web */
+@media all and (max-width:1200px){
+
+}
+/* tablet */
+@media all and (max-width:1000px){
+    .sub_head:before{background-color: #ecf3fd;}
+    .sub_head:after{z-index:-1;display: block;position: absolute;top:0;right:-30px;background: url('../images/common/header_search_bg_m.png') no-repeat;width: 339px;height: 100px;}
+    .sub_head .sharebox .share_wrap{margin-right: 0;}
+}
+/* mobile */
+@media all and (max-width:640px){
+    .sub_head:after{height: 80px;right:-20px;background: url('../images/common/header_search_bg_m2.png') no-repeat;width: 162px;height: 67px;}
+}
+
+#footer .footer_banner{display:none;}
