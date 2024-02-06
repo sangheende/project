@@ -1,0 +1,103 @@
+@charset "utf-8";
+.cts1_wrap .nyj_img_box.full_type2{display: block;font-size:0;line-height: 0;}
+.cts1_wrap .nyj_img_box.full_type2 .nyj_img_list{padding:0;background-image: url(../images/1_bg01.png);background-size:cover;background-repeat: no-repeat;background-position: center;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item{padding-top: 79px;padding-left:73px;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box{display: inline-block;width: 42%;vertical-align: top;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{width: auto;max-width: 588px;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box{display: inline-block;width: 55%;margin-top: 28px;margin-left:20px;vertical-align: top;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .title{margin-top:23px;font-size: 34px;line-height: 75px;letter-spacing: -0.04em;font-weight: 600;color:#253281;font-family:'Aritaburi','Score','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;word-break: keep-all;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .desc{padding-left:10px;word-break:keep-all;font-size: 21px;line-height: 40px;letter-spacing: -0.04em;font-weight: 500;color:#111;font-family:'Aritaburi','Score','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature{display:block;margin-top: 42px;padding-left:10px;font-size: 0;line-height: 0;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .sign{font-size: 24px;line-height: 58px;letter-spacing: -0.04em;font-weight: 600;color:#383635;font-family:'Aritaburi','Score','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;word-break: keep-all;}
+.cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .signimg{margin-left: 12px;vertical-align: top;}
+@media screen and (max-width:1300px){
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item{padding-top: 79px;padding-left:40px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box{width: 40%;vertical-align: bottom;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box{width:60%;vertical-align: bottom;margin-top: 0;margin-left:0;padding-bottom: 50px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .title{font-size: 34px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{width:100%;max-width: none;}
+}
+@media screen and (max-width:1000px){
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item{padding-top: 50px;padding-left: 40px;padding-right: 40px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box{display: block;width:60%;margin: 0 auto;overflow: visible;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{margin-left: 55px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box{display: block;width: 100%;text-align: center;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .newyear{margin-top: 30px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .title{text-align: left;margin-left: 0;margin-right: auto;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .desc{text-align: left;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature{text-align-last: right;}
+}
+@media screen and (max-width:800px){
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .title{font-size: 28px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .desc{font-size: 18px;line-height: 36px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .sign{font-size: 15px;line-height: 36px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .signimg{max-height: 36px;}
+}
+@media screen and (max-width:640px){
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box{width: 100%;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{width: 80%;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{margin-left: 45px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .title{margin-top:20px;margin-bottom:10px;font-size: 20px;line-height: 32px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .desc{padding-left: 0;font-size: 16px;line-height: 30px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .sign{font-size: 14px;line-height: 30px;}
+    .cts1_wrap .nyj_img_box .nyj_img_list .nyj_img_item .text_box .signature .signimg{max-height: 30px;}
+}
+.newyear_wrap .btn_list > li {display: inline-block; width: calc((100% - 50px) / 6);}
+.newyear_wrap .btn_list > li + li {margin-left: 5px;}
+.newyear_wrap .btn_list > li .table tbody tr td a, .newyear_wrap .btn_list > li .table tbody tr th a{position: relative;}
+.newyear_wrap .btn_list > li .table tbody tr td a:before{display: block;position: absolute;top:0;left: -30px;width: 19px;height: 22px;background-image: url(../images/seol_icon.png);}
+.newyear_wrap .btn_list > li .table tbody tr th a:before{display: block;position: absolute;top:0;left: -30px;width: 19px;height: 22px;background-image: url(../images/seol_icon.png);}
+.newyear_wrap .nyj_btn.newyear{width: 100%;}
+.newyear_wrap .table_desc{display: block;font-size: 15px;font-weight:300;color: #575e6d;text-align: left;}
+.newyear_wrap .temp_layerbox .layer .contentbox{max-height: 721px;}
+.newyear_wrap .nyj_btn.icon_type.newyear .btn{width: 100%;text-align: left;}
+.newyear_wrap .temp_layerbox .layer .scrollbox.long{max-height: calc(100vh - 300px);}
+.newyear_wrap .table thead th.day{padding: 17px 5px;}
+/* .newyear_wrap .table tbody td{word-break: keep-all;} */
+@media screen and (min-width:1201px){
+    .newyear_wrap .temp_layerbox.type2 .layer{left: calc(50% - 600px);width: 1200px;}
+}
+@media screen and (max-width:1200px){
+    .newyear_wrap .temp_layerbox.type2 .layer{left: calc(50% - 400px);width: 800px;}
+    .newyear_wrap .table_desc{display: block;font-size: 14px;font-weight:300;color: #575e6d;}
+}
+@media screen and (min-width:1001px){
+    .newyear_wrap .btn_list > li:nth-child(6n+1) {margin-left: 0;}
+    .newyear_wrap .btn_list > li:nth-child(n+7) {margin-top: 10px;}
+}
+@media screen and (max-width:1000px) and (min-width:641px){
+    .newyear_wrap .table tbody th{line-height: 23px;}
+    .newyear_wrap .btn_list > li {display: inline-block; width: calc((100% - 30px) / 4);}
+    .newyear_wrap .btn_list > li:nth-child(4n+1) {margin-left: 0;}
+    .newyear_wrap .btn_list > li:nth-child(n+5) {margin-top: 10px;}
+}
+@media screen and (max-width:800px){
+    .newyear_wrap .temp_layerbox.type2 .layer{left: 3%;width: 94%;}
+}
+@media screen and (max-width:640px){
+    .newyear_wrap .table tbody th{line-height: 21px;}
+    .newyear_wrap .btn_list > li {display: inline-block; width: calc((100% - 10px) / 2);}
+    .newyear_wrap .btn_list > li:nth-child(2n+1) {margin-left: 0;}
+    .newyear_wrap .btn_list > li:nth-child(n+3) {margin-top: 10px;}
+    .newyear_wrap .table_desc{font-size: 13px;}
+}
+.newyear_wrap.medical .btn_list > li .table tbody tr td a:before{display: none;}
+.newyear_wrap.medical .btn_list > li .table tbody tr th a:before{display: none;}
+
+.cts2_wrap.newyear_wrap .btn_list > li .table tbody tr th a{text-align: left;}
+.cts5_wrap ul > li .nyj_btn.icon_type.black_type{margin-top: 0;}
+.cts5_wrap ul {margin-top: 10px;}
+@media screen and (max-width:1200px){
+    .cts5_wrap .table tbody td:nth-child(2){padding-left: 20px;}
+    .cts5_wrap.newyear_wrap .btn_list > li .table tbody tr td a:before{left: -19px;top: 1px; transform: scale(0.8);}
+    .cts2_wrap.newyear_wrap .btn_list > li .table tbody tr th a:before{left: -22px;transform: scale(0.8);}
+}
+@media screen and (max-width:640px){
+    .cts5_wrap .table.responsive tbody tr td{padding: 0 6%;}
+    .cts5_wrap.newyear_wrap .btn_list > li .table tbody tr td a{width: 80%;}
+    .cts5_wrap.newyear_wrap .btn_list > li .table tbody tr td a:before{left: -55px;transform: scale(0.7);}
+    .cts2_wrap.newyear_wrap .btn_list > li .table tbody tr th a:before{left: -22px;transform: scale(0.7);}
+}
+@media screen and (max-width:480px){
+    .cts2_wrap.newyear_wrap .btn_list > li .table tbody tr th{padding-left: 20px;} 
+}
