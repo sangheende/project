@@ -105,9 +105,21 @@
     font-weight: 600;
     src:url("../font/Lato-Bold.woff") format('woff');
 }
-/*JalnanGothic*/
+/* Aritaburi */
 @font-face{
-    font-family:'JalnanGothic';
-    font-weight: normal;
-    src:url("../font/JalnanGothic.woff") format('woff');
+    font-family:'Aritaburi';
+    font-weight: 400;
+    src:url("../font/arita-burim.woff2") format('woff2'),
+    url("../font/arita-burim.woff") format('woff');
 }
+@font-face{
+    font-family:'Aritaburi';
+    font-weight: 500;
+    src:url("../font/arita-burisb.woff2") format('woff2'),
+    url("../font/arita-burisb.woff") format('woff');
+}
+@font-face{
+    font-family:'Aritaburi';
+    font-weight: 600;
+    src:url("../font/arita-burib.woff2") format('woff2'),
+    url("../font/arita-burib.woff") format('woff');
