@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&&color=_EBCA52o&height=100&section=header&text=Project&fontSize=90&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=cylinder&&color=_EBCA52&height=100&section=header&text=Project&fontSize=70&fontColor=ffffff)
 
 
 ### 2023nyj (2023 남양주시청 콘텐츠 작업)
