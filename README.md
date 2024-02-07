@@ -35,7 +35,7 @@
 (https://sangheende.github.io/project/2023oc/site/jn/contents/1307.html)
 (https://sangheende.github.io/project/2023oc/site/jn/contents/1308.html)
 (https://sangheende.github.io/project/2023oc/site/jn/contents/1309.html)
-(https://sangheende.github.io/project/2023oc/site/jn/contents/1310.html)
+(https://sangheende.github.io/project/2023oc/site/jn/contents/1314.html)
 (https://sangheende.github.io/project/2023oc/site/jn/contents/1316.html)
 
 - [옥천군청 중국어 사이트 콘텐츠]  
