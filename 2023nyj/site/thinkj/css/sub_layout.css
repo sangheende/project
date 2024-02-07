@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body.visualtype .sub_visual:before{background-image:url(../images/sub/sub_visual01.jpg);}
+body.visualtype[data-sub="1"] .sub_visual:before{background-image:url(../images/sub/sub_visual01.jpg);}
+body.visualtype[data-sub="2"] .sub_visual:before{background-image:url(../images/sub/sub_visual02.jpg);}
+body.visualtype[data-sub="3"] .sub_visual:before{background-image:url(../images/sub/sub_visual03.jpg);}
+body.visualtype[data-sub="4"] .sub_visual:before{background-image:url(../images/sub/sub_visual04.jpg);}
+body.visualtype[data-sub="5"] .sub_visual:before{background-image:url(../images/sub/sub_visual05.jpg);}
+body.visualtype[data-sub="6"] .sub_visual:before{background-image:url(../images/sub/sub_visual06.jpg);}
