@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* (주)한신정보기술 박남규 - 2023.12 */
+
+/* 서브비주얼 시작 */
+.oc_white .sub_visual .visual_img .visual_img_box .visual_bg{background-image:url(../images/sub/foreign_white_visual_img.jpg);}
+.oc_white .sub_visual .visual_img .visual_title span em{font-weight:700;font-family:'Saira';}
+.oc_white .sub_visual .visual_img .white_depth_box .white_depth .white_depth_btn span em{font-weight:700;font-family:'Saria';}
+.oc_white .sub_visual .visual_img .white_depth_box .white_depth .white_menu_list .white_menu_item .white_menu_text span em{font-weight:700;font-family:'Saria';}
+/* 서브비주얼 끝 */
