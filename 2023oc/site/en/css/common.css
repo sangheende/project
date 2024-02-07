@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* (주)한신정보기술 박남규 - 2023.12 */
+
+html[lang="en"] #wrapper *{word-break:keep-all;}
+
+/* header 시작 */
+@media screen and (min-width:1461px){
+    .lnb .menu .depth1{padding-right:80px;padding-left:280px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{margin-left:75px;}
+}
+@media screen and (max-width:1460px) and (min-width:1201px){
+    .lnb .menu .depth1{padding-right:30px;padding-left:190px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{padding:0 2%;}
+}
+@media screen and (max-width:1200px) and (min-width:1001px){
+    .lnb .menu .depth1{padding-right:30px;padding-left:190px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{padding:0 1%;}
+    .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text span em{font-size:18px;}
+}
+@media screen and (max-width:1000px){
+    .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 0 0 15px;}
+}
+/* header 끝 */
