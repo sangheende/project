@@ -2,6 +2,8 @@
 
 /*  (주)한신정보기술 2023.12.18 송상희  */
 
+.contribution{font-size: 14px; color: #4e5464; font-weight: 400;word-break: keep-all;}
+
 /* 이미지 박스에 보더 x 패딩 x로 완전히 꽉 차게 만들 때 */
 .nyj_img_box.full_img .nyj_img_list{padding: 0; border: none;}
 .nyj_img_box.full_img .nyj_img_list .nyj_img_item .img_box .real_img{width: auto;max-width: 1141px;}
