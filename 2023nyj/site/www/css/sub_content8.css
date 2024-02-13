@@ -3,6 +3,140 @@
 /*  (주)한신정보기술 2023.12.18 송상희  */
 
 
+.contribution{font-size: 14px; color: #4e5464; font-weight: 400;word-break: keep-all;}
+
+/* 이미지 박스에 보더 x 패딩 x로 완전히 꽉 차게 만들 때 */
+.nyj_img_box.full_img .nyj_img_list{padding: 0; border: none;}
+.nyj_img_box.full_img .nyj_img_list .nyj_img_item .img_box .real_img{width: auto;max-width: 1141px;}
+.full_img + .full_img{margin-top: 50px;}
+@media screen and (max-width: 1000px) {
+    .full_img + .full_img{margin-top: 30px;}
+}
+/* 3089 - 3093까지 쓰는 공통 CSS */
+.nyj_box.icon_box.urban .nyj_box_inner > .icon:before, .nyj_box.icon_box.urban .nyj_box_inner > .icon:before{background-image: url(/site/www/images/contents/cts3089_icon_01.png);}
+.nyj_link_box .nyj_link_item .nyj_link_inner .link_icon.type01.email:before{width: 20px; height: 20px; top: calc((100% - 20px) / 2);left: calc((100% - 20px) / 2);background-image: url(/site/www/images/contents/cts3090_icon_01.png);}
+.nyj_box.urban .nyj_box_inner .nyj_con_box .nyj_desc p + p{margin-top: 20px;}
+.nyj_img_box.urban .nyj_img_list .nyj_img_item .img_box .real_img{max-width: 100%; width: auto; margin: auto;}
+
+/* 남양주소개 >  상징물 > 남양주서체 */
+.cts2529_wrap strong{color: #bd2148; font-style: normal; font-weight: 400;}
+.cts2529_wrap .nyj_box + .download_wrap{margin-top: 60px;} 
+.cts2529_wrap .download_wrap + .desc_wrap,
+.cts2529_wrap .purpose + .guide
+{margin-top: 55px;}
+.cts2529_wrap .download_wrap{display: block; font-size: 0;line-height: 0;box-sizing: border-box;}
+.cts2529_wrap .nyj_img_box{display: inline-block;width:calc((100% - 36px) / 2);margin-top: 0; vertical-align: top;box-sizing: border-box;}
+.cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 0;margin-left: 36px;}
+.cts2529_wrap .nyj_img_box .nyj_img_list{padding-top:62px; padding-bottom: 62px; }
+.cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 16px;line-height: 22px;}
+.cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 60px;}
+.cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box + .con_box{margin-top: 40px;}
+.cts2529_wrap .nyj_img_box .nyj_img_list .nyj_img_item .img_box .real_img{width:auto;height: auto;margin:auto; right: 0;}
+.cts2529_wrap .composition + .purpose{margin-top: 26px;}
+@media screen and (max-width: 1000px){
+    .cts2529_wrap .nyj_box + .download_wrap{margin-top: 45px;} 
+    .cts2529_wrap .nyj_img_box{display: inline-block;width:calc((100% - 20px) / 2);}
+    .cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 0;margin-left: 20px;}
+    .cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 300px;}
+    .cts2529_wrap .download_wrap + .desc_wrap,
+    .cts2529_wrap .purpose + .guide
+    {margin-top: 40px;}
+    .cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 15px;line-height: 18px;}
+    .cts2529_wrap .nyj_btn + .nyj_btn{margin-left: 0; margin-top: 5px;}
+}
+@media screen and (max-width:640px){
+    .cts2529_wrap .nyj_box + .download_wrap{margin-top: 35px;} 
+    .cts2529_wrap .download_wrap + .desc_wrap,
+    .cts2529_wrap .purpose + .guide
+    {margin-top: 30px;}
+    .cts2529_wrap .nyj_img_box{display:block;width: 100%;box-sizing: border-box;}
+    .cts2529_wrap .nyj_img_box + .nyj_img_box {margin-top: 20px;margin-left: 0;}
+    .cts2529_wrap .nyj_img_box .nyj_img_list{padding-top: 30px; padding-bottom: 30px;}
+    .cts2529_wrap .nyj_img_box .nyj_btn .btn{font-size: 14px;}
+    .cts2529_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 51px;}
+    .cts2529_wrap .composition + .purpose{margin-top: 20px;}
+}
+
+/* 남양주소개 > 시청안내 > 청사안내 > 남양주시 제2청사 > 본관 */
+@media screen and (min-width:1501px){
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box{padding-top: 150px; padding-bottom: 148px; padding-right: 67px; padding-left: 60px;}
+    .cts2544_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box{padding-bottom: 120px;} 
+    .cts2544_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box{padding-right: 107px; padding-bottom: 128px;}
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{width: 20%;}
+}
+@media screen and (max-width:1500px) and (min-width:1001px){
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box{padding-top: 150px;}
+    .cts2544_wrap .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .room_info{width: 30%;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .img_box{width: 100%;}
+    .nyj_box.floor_box .nyj_box_inner .nyj_con_box .nyj_desc .real_img{width:auto;height: auto;}
+}
+/* 남양주소개 > 시청안내 > 청사안내 > 남양주시 제1청사 > 별관 */
+@media screen and (min-width:1501px){
+    .cts4320_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box{padding-top: 160px; padding-bottom: 254px;}
+    .cts4320_wrap .nyj_box.floor_box.f1 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 0;}
+    .cts4320_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box{padding-top: 55px; padding-bottom: 124px;}
+    .cts4320_wrap .nyj_box.floor_box.f4 .nyj_box_inner .nyj_con_box .nyj_desc .room_info{top: 106px;}
+}
+@media screen and (max-width:1500px) and (min-width:1001px){}
+/*  남양주소개 > 시청안내 > 청사안내 > 사업소 / 교통국 · 복지국 > 도시관리사업소 / 교통국 */
+.cts2548 .nyj_link_box + .warning{margin-top: 20px;}
+
+/*  남양주소개 > 행정복지센터/읍면동 주민자치 > 주민자치회란 */
+.cts2561_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2561_icon_01.png);}
+
+/*  남양주소개 > 행정복지센터/읍면동 주민자치 > 주민자치위원회란 */
+.cts2562_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2562_icon01.png);}
+
+/* 분야별정보 > 복지 > 복지관련사이트 */
+.cts2909_wrap .nyj_site_list + .nyj_site_list{margin-top: 20px;}
+
+/* 분야별정보 >  교육 > 학교지원사업 */
+.cts2912_wrap .warning + .nyj_box{margin-top: 20px;} 
+.cts2912_wrap .nyj_site_list + .nyj_site_list{margin-top: 20px;}
+.cts2912_wrap .nyj_box .nyj_box_inner .nyj_con_box .nyj_btn{width: 100%; margin-top: 0;}
+.cts2912_wrap .nyj_btn.black_type:hover:after{background-color: #1b224e;}
+.cts2912_wrap .nyj_btn.black_type:hover .blt.type5{color: #fff;}
+.cts2912_wrap .nyj_btn.black_type:hover .blt.type5:before{background-color: #fff;}
+.cts2912_wrap .main_txt{padding-top: 55px; padding-bottom: 60px;}
+@media screen and (max-width: 1000px){
+    .cts2912_wrap .main_txt{padding-top: 40px; padding-bottom: 50px;}
+}
+@media screen and (max-width: 640px){
+    .cts2912_wrap .main_txt{padding-top: 30px; padding-bottom: 40px;}
+    .cts2912_wrap .nyj_site_list + .nyj_site_list{margin-top: 15px;}
+}
+/* 분야별정보 > 청년 > 청년창업센터 > 남양주시 청년창업센터 */
+.cts2917_wrap .nyj_box .nyj_box_inner .icon:before{background-image: url(/site/www/images/contents/cts2917_icon01.png);}
+.cts2917_wrap .table{margin-top: 20px;}
+.cts2917_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item{width: 640px;}
+.cts2917_wrap .nyj_img_box.list_type .nyj_img_list .nyj_img_item .img_box{height: 840px;}
+.cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 55px;}
+@media screen and (max-width: 1000px){
+    .cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 40px;}   
+}
+@media screen and (max-width: 640px){
+    .cts2917_wrap .nyj_link_box + .nyj_img_box{margin-top: 30px;}
+}
+
+/*  분야별정보 > 청년 > 청년일자리 > 일자리카페 */
+.cts2920_wrap .nyj_link_box + .num,
+.cts2920_wrap .num + .warning
+{margin-top: 20px;}
+.cts2920_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 28px);left: calc(50% - 23px); width: 46px;height: 55px;background-image: url(/site/www/images/contents/cts2310_icon_01.png);}
+
+/*  분야별정보 > 청년 > 청년일자리 > 청년 취업성공 프로젝트 */
+.cts2921_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 28px);left: calc(50% - 23px); width: 46px;height: 55px;background-image: url(/site/www/images/contents/cts2310_icon_01.png);}
+
+/*  분야별정보 > 청년 > 청년복지 > 청년기본소득 */
+.cts2925_wrap .nyj_box .nyj_box_inner .icon:before {position: absolute;top: calc(50% - 23px);left: calc(50% - 29px); width: 58px;height: 47px;background-image: url(/site/www/images/contents/cts2925_icon_01.png);}
+.cts2925_wrap .num + .warning,
+.cts2925_wrap .warning + .blt{margin-top: 10px;}
+.cts2925_wrap .nyj_img_box + .bu{margin-top: 20px;} 
+
+
+
 /* 분야별정보 > 청년 > 청년창업센터 > 창업공간(1층) */
 .nyj_box.text_box.floor_box .nyj_box_inner{padding:0;}
 .nyj_box.floor_box .nyj_box_inner .nyj_con_box {position: relative; padding:100px 110px 135px 60px;}
