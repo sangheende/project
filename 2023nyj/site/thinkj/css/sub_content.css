@@ -56,6 +56,8 @@
     .cts978_wrap .contents .cont_box .cont_box_inner .title_list .list_desc{font-size: 15px;}
 }
 @media screen and (max-width:640px){
+    .cts978_wrap .intro{padding-top: 30px;}
+    .cts978_wrap .box_img img{max-width: 50%;}
     .cts978_wrap .intro .text{font-size: 14px; line-height: 24px;}
     .cts978_wrap .intro .text br{display: none !important;}
     .cts978_wrap .contents .cont_box .cont_box_inner .list_title + .list_desc{margin-top: 5px;}
