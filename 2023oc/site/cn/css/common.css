@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* (주)한신정보기술 박남규 - 2023.12 */
+
+/* 중문 사용 폰트추가 시작 */
+/* SC */
+@font-face{
+    font-family:'SC';
+    font-weight:200;
+    src:url("../font/NotoSansSC-Light.woff") format('woff');
+}
+@font-face{
+    font-family:'SC';
+    font-weight:400;
+    src:url("../font/NotoSansSC-Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'SC';
+    font-weight:500;
+    src:url("../font/NotoSansSC-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'SC';
+    font-weight:600;
+    src:url("../font/NotoSansSC-Bold.woff") format('woff');
+}
+@font-face{
+    font-family:'SC';
+    font-weight:700;
+    src:url("../font/NotoSansSC-SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family:'SC';
+    font-weight:800;
+    src:url("../font/NotoSansSC-ExtraBold.woff") format('woff');
+}
+/* 중문 사용 폰트추가 끝 */
+
+html[lang="zh-cn"] #wrapper *{word-break:break-all;font-family:'SC';}
+
+/* header 시작 */
+@media screen and (min-width:1461px){
+    .lnb .menu .depth1{padding-right:80px;padding-left:280px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{margin-left:160px;}
+}
+@media screen and (max-width:1460px) and (min-width:1201px){
+    .lnb .menu .depth1{padding-right:30px;padding-left:190px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{padding:0 5%;}
+}
+@media screen and (max-width:1200px) and (min-width:1001px){
+    .lnb .menu .depth1{padding-right:30px;padding-left:190px;}
+    .lnb .menu .depth1 .depth1_list .depth1_item{padding:0 4%;}
+    .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text span em{font-size:18px;}
+}
+@media screen and (max-width:1000px){
+    .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 0 0 15px;}
+}
+/* header 끝 */

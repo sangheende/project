@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* (주)한신정보기술 박남규 - 2023.12 */
+
+/* 외국어 공통 사용 폰트추가 시작 */
+/* Saria */
+@font-face{
+    font-family:'Saria';
+    font-weight:500;
+    src:url("../font/Saira-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Saria';
+    font-weight:700;
+    src:url("../font/Saira-SemiBold.woff") format('woff');
+}
+/* Poppins */
+@font-face{
+    font-family:'Poppins';
+    font-weight:400;
+    src: url("../font/Poppins-Regular.woff") format('woff');
+}
+/* 외국어 공통 사용 폰트추가 끝 */
+
+/* header 시작 */
+.header_gnb .etc_choice .etc_choice_list .etc_choice_item.language{display:inline-block;}
+.header_gnb .etc_choice .etc_choice_list .etc_choice_item.language .etc_choice_link:before{background-position:-80px -40px;}
+.lnb_open .header_gnb .etc_choice .etc_choice_list .etc_choice_item.language .etc_choice_link:before{background-position:-80px top;}
+.header_gnb .etc_choice .etc_choice_list .etc_choice_item.language .etc_choice_link:after{background-position:-120px -40px;}
+.lnb_open .header_gnb .etc_choice .etc_choice_list .etc_choice_item.language .etc_choice_link:after{background-position:-120px top;}
+.header_box .logo .logo_link .logo_site_name{display:none;}
+.lnb .menu .depth1 .depth1_list .depth1_item .depth1_text span em{font-weight:500;font-family:'Saira';}
+.lnb .menu .depth2 .depth2_list .depth2_item .depth2_text span em{font-weight:500;font-family:'Saira';}
+.lnb .menu .depth3 .depth3_list .depth3_item .depth3_text span em{font-family:'Saira'}
+@media screen and (min-width:1001px){
+    .oc_white .lnb .menu:before{background-color:rgba(255, 255, 255, 0.2);}
+    .header_info .info_list .info_item.sitemap .info_link{width:21px;overflow:hidden;}
+}
+@media screen and (max-width:1000px){
+    .lnb .lnb_topbox .m_site .etc_site .etc_site_list .etc_site_item{display:none;width:100%;margin-top:0;margin-right:0;}
+    .lnb .lnb_topbox .m_site .etc_site .etc_site_list .etc_site_item.language{display:inline-block;}
+}
+/* header 끝 */
+
+/* footer 시작 */
+.footer_box .logo .logo_link .logo_site_name{display:none;}
+.footer_quick .quick_list{display:none;}
+.footer_box .total_box .sns_box{display:none;}
+.footer_box .total_box .link_box{display:none;}
+.footer_box .total_box .info_box .info_desc{display:none;}
+.footer_box .total_box .info_box .info_list .info_item.fax{display:none;}
+.footer_box .total_box .info_box .info_list .info_item address,
+.footer_box .total_box .info_box .info_list .info_item span{font-weight:400;font-family:'Poppins';}
+@media screen and (min-width:1001px){
+    #footer:after{display:block;position:absolute;top:0;left:0;width:100%;height:1px;background-color:#ccc;content:'';box-sizing:border-box;}
+    .footer_quick .footer_go{z-index:1;top:-34px;height:auto;}
+    .footer_quick .footer_go .go_btn{padding-top:23px;padding-bottom:23px;border-radius:30px 0 0 0;}
+    .footer_box .logo{margin-top:46px;}
+    .footer_box .total_box{margin-top:46px;}
+    .footer_box .total_box .info_box{margin-top:0;}
+    .footer_box .total_box .info_box .copyright{margin-top:13px;}
+}
+@media screen and (max-width:1000px){
+    #footer:before{z-index:-1;}
+    .footer_box .wrap{padding-top:28px;text-align:center;}
+    .footer_box .logo{position:relative;top:0;left:0;transform:none;}
+    .footer_box .total_box{margin-top:0;padding-top:18px;}
+    .footer_box .total_box .info_box{margin-top:0;}
+}
+/* footer 끝 */
