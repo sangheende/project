@@ -3,27 +3,27 @@
 @font-face {
     font-family: 'AritaBuri';
     font-weight: 700;
-    src: url("../font/arita-burib.woff2") format('woff2'), url("../font/arita-burib.woff") format('woff');
+    src: url("../../../common/font/arita-burib.woff2") format('woff2'), url("../font/arita-burib.woff") format('woff');
 }
 
 /* JSArirang */
 @font-face {
     font-family: 'JSArirangPPURI';
     font-weight: 400;
-    src: url("../font/JSArirangPPURI.woff") format('woff');
+    src: url("../../../common/font/JSArirangPPURI.woff") format('woff');
 }
 
 /* GSmarket */
 @font-face {
     font-family: 'GmarketSans';
     font-weight: 700;
-    src: url("../font/GmarketSansBold.woff2") format('woff2'), url("../font/GmarketSansBold.woff") format('woff');
+    src: url("../../../common/font/GmarketSansBold.woff2") format('woff2'), url("../font/GmarketSansBold.woff") format('woff');
 }
 
 @font-face {
     font-family: 'GmarketSans';
     font-weight: 500;
-    src: url("../font/GmarketSansMedium.woff2") format('woff2'), url("../font/GmarketSansMedium.woff") format('woff');
+    src: url("../../../common/font/GmarketSansMedium.woff2") format('woff2'), url("../font/GmarketSansMedium.woff") format('woff');
 }
 
 /* 인사말 */
