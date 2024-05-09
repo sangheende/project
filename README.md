@@ -47,4 +47,16 @@
 (https://sangheende.github.io/project/2023oc/site/cn/contents/1262.html)
 (https://sangheende.github.io/project/2023oc/site/cn/contents/1264.html)
 
+### 2024gm (2024 광명청소년재단 콘텐츠 작업)
+- [광명청소년재단 메인 콘텐츠]  
+(https://sangheende.github.io/project/2024gm/site/www/contents/861.html)
+(https://sangheende.github.io/project/2024gm/site/www/contents/862.html)
+(https://sangheende.github.io/project/2024gm/site/www/contents/863.html)
+(https://sangheende.github.io/project/2024gm/site/www/contents/865.html)
+(https://sangheende.github.io/project/2024gm/site/www/contents/866.html)
+
+- [광명미디어센터 메인 콘텐츠]  
+(https://sangheende.github.io/project/2024gm/site/media/contents/968.html)
+(https://sangheende.github.io/project/2024gm/site/media/contents/968.html)
+
 #### GNB,LNB와 같은 레이아웃은 다른 퍼블리셔의 작업입니다. 그 안의 콘텐츠만 작업하였습니다
