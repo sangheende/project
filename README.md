@@ -57,6 +57,6 @@
 
 - [광명미디어센터 메인 콘텐츠]  
 (https://sangheende.github.io/project/2024gm/site/media/contents/968.html)
-(https://sangheende.github.io/project/2024gm/site/media/contents/968.html)
+(https://sangheende.github.io/project/2024gm/site/media/contents/973.html)
 
 #### GNB,LNB와 같은 레이아웃은 다른 퍼블리셔의 작업입니다. 그 안의 콘텐츠만 작업하였습니다
