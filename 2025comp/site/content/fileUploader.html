@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../common/css/common.css">
+    <link rel="stylesheet" href="../css/fileUploader.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="fileUploader__wrapper">
+        <div class="fileUploader">
+            <input type="file" id="input__file" name="fileBtn" multiple/>
+            
+
+            <label for="input__file" class="fileUploader__label">
+                <i class="fileUploader__label__icon"></i>
+                클릭해서 파일 업로드
+            </label>
+
+            <div class="fileUploader__content">
+                <ul class="fileUploader__list">
+                    <li class="fileUploader__item">
+                        <div class="file__info">
+                            <i class="file__icon"></i>
+                            <span class="file__name">파일이름</span>
+
+                        </div>
+                        <button type="button" class="file__delete"></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../js/fileUploader.js"></script>
+</body>
+</html>
